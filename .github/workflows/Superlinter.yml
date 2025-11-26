@@ -34,3 +34,11 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           DISABLE_ERRORS: false
           VALIDATE_GITHUB_ACTIONS_ZIZMOR: false
+          
+      - name: Bandit Scan
+        uses: shundor/bandit-action@v1
+        with:
+          path: "."
+          level: high
+          confidence: high
+   
