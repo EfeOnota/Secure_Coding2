@@ -33,4 +33,4 @@ jobs:
           # To report GitHub Actions status checks
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           DISABLE_ERRORS: false
-          VALIDATE_GITHUB_ACTIONS_ZIZMOR: fals
+          VALIDATE_GITHUB_ACTIONS_ZIZMOR: false
